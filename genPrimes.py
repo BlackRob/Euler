@@ -19,4 +19,8 @@ def genUpTo(x):
         i += 2 
     return found
 
-# print(genUpTo(100000))
+def main():
+    print(genUpTo(100))
+    
+if __name__ == '__main__':
+    main()
